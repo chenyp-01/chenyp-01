@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>tailwincss 使用攻略</title>
+      <link href="/chenyp-01/2024/06/02/tail_win_css/"/>
+      <url>/chenyp-01/2024/06/02/tail_win_css/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-tailwincss-使用攻略"><a href="#1-tailwincss-使用攻略" class="headerlink" title="1.tailwincss 使用攻略"></a>1.tailwincss 使用攻略</h2><p>1.1 插件安装</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">yarn add tailwindcss postcss autoprefixer</span><br><span class="line">npx tailwindcss init -p</span><br></pre></td></tr></table></figure><p>2.调整 tailwind.config.js 中 content 的内容</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">content: [</span><br><span class="line">    &quot;./index.html&quot;,</span><br><span class="line">    &quot;./src/**/*.&#123;vue,js,ts,jsx,tsx&#125;&quot;,</span><br><span class="line">  ],</span><br></pre></td></tr></table></figure><p>3.根样式文件引入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@tailwind base;</span><br><span class="line">@tailwind components;</span><br><span class="line">@tailwind utilities;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vite的基础配置</title>
       <link href="/chenyp-01/2023/10/20/vite%E9%85%8D%E7%BD%AE/"/>
       <url>/chenyp-01/2023/10/20/vite%E9%85%8D%E7%BD%AE/</url>
